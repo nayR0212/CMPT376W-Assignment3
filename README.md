@@ -2,8 +2,8 @@
 
 LogLens is a simple command-line Python script for counting number of records by log level, in a CSV log file. It is aimed for people familiar with CSV files and the terminal.
 
-## Requirements and things
-You need Python. Most computers already have it, and version 3.6 or later should be good enough. It works on Windows, Mac, and Linux. Other than that, there is not much to know.
+## Requirements
+ - `Python 3.10` or later
 
 ## Get started
 
