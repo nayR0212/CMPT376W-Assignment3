@@ -1,9 +1,8 @@
 # LogLens - find all your log problems fast
 
-LogLens is a really simple program that tells you what's happening in your logs. It is useful for developers, IT staff, customers, and anybody who has a computer. You don't really need to know anything about log files to get started. It finds problems in your files, so you can use it to make decisions about your system. Your data is always 100% secure.
+LogLens is a simple command-line Python script for counting number of records by log level, in a CSV log file. It is aimed for people familiar with CSV files and the terminal.
 
 ## Requirements and things
-
 You need Python. Most computers already have it, and version 3.6 or later should be good enough. It works on Windows, Mac, and Linux. Other than that, there is not much to know.
 
 ## Get started
