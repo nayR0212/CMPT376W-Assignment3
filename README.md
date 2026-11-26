@@ -1,4 +1,4 @@
-# LogLens - find all your log problems fast
+# LogLens
 
 LogLens is a simple command-line Python script for counting records by log level, in a CSV log file. LogLens only reads the input CSV, it does not repair, rewrite or modify the input CSV. It is aimed for people familiar with CSV files and the terminal.
 
