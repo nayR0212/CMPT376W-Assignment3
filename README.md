@@ -7,7 +7,9 @@ LogLens is a simple command-line Python script for counting number of records by
 
 ## Get started
 
-First, get the project files from GitHub. Then install the program using `pip install log-lens` and run it by typing `loglens`. If you can't make it work, see docs/INSTALL.md. You probably won't need those instructions.
+First, get the project files from GitHub with `git clone https://github.com/nayR0212/CMPT376W-Assignment3.git`
+
+Refer to [INSTALL.md](docs/INSTALL.md) for more detailed installation instructions
 
 ## Using the program
 
