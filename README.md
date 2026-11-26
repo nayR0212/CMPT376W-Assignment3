@@ -27,4 +27,4 @@ The software scans your log, fixes mistakes, and shows you what went wrong. You 
 
 ## Questions
 
-If something doesn't work, you can create a GitHub issues or contact the developers directly. Please include a description of the problem and do not give private or sensitive log data.
+If something doesn't work, please create a GitHub issues or contact the developers directly. Include a description of the problem and do not give private or sensitive log data.
