@@ -19,11 +19,17 @@ An example log file can be found at [data/sample_logs.csv](data/sample_logs.csv)
 
 ## Using the program
 
-Run the following command after you have found the correct folder:
+Run the following command from the repository root:
 
-`loglens --input mylog.csv --severity error`
+`python loglens.py --file data/sample_logs.csv --level ERROR`
 
-The software scans your log, fixes mistakes, and shows you what went wrong. You will see a number once it is finished. You can also run it on real production files without worrying about any side effects.
+Expected output:
+
+`Records matching ERROR: 2`
+
+Change the CSV file with the `--file` flag. 
+
+Count different log levels with the `--level` flag. Accepted levels are `INFO`, `WARN`, and `ERROR`. Omitting the `--level` flag will count all records.
 
 ## Questions
 
