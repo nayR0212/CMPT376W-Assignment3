@@ -7,7 +7,7 @@ LogLens is a simple command-line Python script for counting records by log level
 
 ## Get started
 
-First, get the project files from GitHub with `git clone https://github.com/nayR0212/CMPT376W-Assignment3.git`
+First, get the project files from GitHub with ```git clone https://github.com/nayR0212/CMPT376W-Assignment3.git```
 
 Refer to [INSTALL.md](docs/INSTALL.md) for more detailed installation instructions
 
@@ -21,11 +21,11 @@ An example log file can be found at [data/sample_logs.csv](data/sample_logs.csv)
 
 Run the following command from the repository root:
 
-`python loglens.py --file data/sample_logs.csv --level ERROR`
+```python loglens.py --file data/sample_logs.csv --level ERROR```
 
 Expected output:
 
-`Records matching ERROR: 2`
+```Records matching ERROR: 2```
 
 Change the CSV file with the `--file` flag. 
 
