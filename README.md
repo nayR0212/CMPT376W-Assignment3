@@ -30,7 +30,7 @@ python loglens.py --file data/sample_logs.csv --level ERROR
 
 Expected output:
 
-```bash
+```text
 Records matching ERROR: 2
 ```
 
@@ -40,4 +40,4 @@ Count different log levels with the `--level` flag. Accepted levels are `INFO`, 
 
 ## Questions
 
-If something doesn't work, please create a GitHub issues or contact the developers directly. Include a description of the problem and do not give private or sensitive log data.
+If something doesn't work, please open a GitHub issue or contact the developers directly. Include a description of the problem alongside a sanitized, minimal example. Do not include any sensitive information.
