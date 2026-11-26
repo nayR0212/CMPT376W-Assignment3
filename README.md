@@ -25,4 +25,4 @@ The input should be a CSV file. Log files tend to have fields describing the tim
 
 ## Questions
 
-If something doesn't work, just contact the developers or create an issue. Make sure you describe the problem so somebody can help. This is a basic tool, so the instructions should be pretty obvious.
+If something doesn't work, you can create a GitHub issues or contact the developers directly. Please include a description of the problem and do not give private or sensitive log data.
