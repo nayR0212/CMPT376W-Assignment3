@@ -13,7 +13,7 @@ First, get the project files from GitHub with
 git clone https://github.com/nayR0212/CMPT376W-Assignment3.git
 ```
 
-Navigate into the repository root wih
+Navigate into the repository root with
 
 ```bash
 cd CMPT376W-Assignment3
