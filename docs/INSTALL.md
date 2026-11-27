@@ -40,7 +40,7 @@ python loglens.py --file data/sample_logs.csv --level ERROR
 
 Expected result:
 
-```bash
+```text
 Records matching ERROR: 2
 ```
 
@@ -52,7 +52,7 @@ python loglens.py --file data/sample_logs.csv
 
 Expected result:
 
-```bash
+```text
 Records matching ALL: 6
 ```
 
