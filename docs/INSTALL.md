@@ -12,40 +12,61 @@ These are the instructions on how to clone and use LogLens.
 
 Clone the LogLens repository to get the required project files with 
 
-`git clone https://github.com/nayR0212/CMPT376W-Assignment3.git`
+```bash
+git clone https://github.com/nayR0212/CMPT376W-Assignment3.git
+```
 
-## Running a check
+Ensure you are in the repository root with
 
-Important information before using LogLens:
+```bash
+cd CMPT376W-Assignment3
+```
+
+## Important information before using LogLens
+
 * The `--file` argument is required.
 * The `--level` argument is optional, and it counts all records when omitted.
 * Accepted log levels are `INFO`, `WARN`, and `ERROR` (uppercase).
 * The commands in examples use `python`; on some computers, the Python launcher is `python3` or `py` instead.
 * The example data is in `data/sample_logs.csv`.
 
+## Running LogLens
+
 To run the sample, ensure you are in the repository root and enter:
 
-`python loglens.py --file data/sample_logs.csv --level ERROR`
+```bash
+python loglens.py --file data/sample_logs.csv --level ERROR
+```
 
 Expected result:
 
-`Records matching ERROR: 2`
+```bash
+Records matching ERROR: 2
+```
 
 Omitted optional level:
 
-`python loglens.py --file data/sample_logs.csv`
+```bash
+python loglens.py --file data/sample_logs.csv
+```
 
 Expected result:
 
-`Records matching ALL: 6`
+```bash
+Records matching ALL: 6
+```
 
 For more options:
 
-`python loglens.py --help`
+```bash
+python loglens.py --help
+```
 
 For your own files, an example can be:
 
-`python loglens.py --file /Users/alex/Desktop/system-log.csv --level ERROR`
+```bash
+python loglens.py --file /Users/alex/Desktop/system-log.csv --level ERROR
+```
 
 ## Problems and fixes
 
