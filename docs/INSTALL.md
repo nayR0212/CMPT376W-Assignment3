@@ -6,9 +6,7 @@ These are the instructions on how to clone and use LogLens.
 
 * Python 3.10 or later
 
-## Input format
-
-The CSVs' column headers must be named `timestamp`, `level`, and `message`.
+* A CSV log file with column headers named exactly `timestamp`, `level`, and `message`.
 
 ## Getting the program
 
@@ -18,8 +16,12 @@ Clone the LogLens repository to get the required project files with
 
 ## Running a check
 
-The `--file` argument is required, and `--level` argument is optional, when omitted, it counts all records. Accepted log levels are `INFO`, `WARN`, and `ERROR` (uppercase).
-The commands in examples use `python`; on some computers, the Python launcher is `python3` or `py` instead. The example data is in `data/sample_logs.csv`.
+Important information before using LogLens:
+* The `--file` argument is required.
+* The `--level` argument is optional, and it counts all records when omitted.
+* Accepted log levels are `INFO`, `WARN`, and `ERROR` (uppercase).
+* The commands in examples use `python`; on some computers, the Python launcher is `python3` or `py` instead.
+* The example data is in `data/sample_logs.csv`.
 
 To run the sample, ensure you are in the repository root and enter:
 
@@ -48,7 +50,7 @@ For your own files, an example can be:
 ## Problems and fixes
 
 Some common problems and their fixes:
-* "File not found" or "Cannot read file" error, ensure you are in the repository root and the path to your CSV is correct.
-* an error about the CSV itself, please ensure the column headers match required input format.
+* "File not found" or "Cannot read file" error: ensure you are in the repository root and the path to your CSV is correct.
+* An error about the CSV itself: please ensure the column headers match required input format.
 
 If you still run into errors, please contact the developers or open a GitHub issue and provide a description of the problem and a sanitized, minimal example. Do not upload private or sensitive log data publicly.
