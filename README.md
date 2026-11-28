@@ -30,11 +30,18 @@ An example log file can be found at [data/sample_logs.csv](data/sample_logs.csv)
 
 ## Running the program
 
-Arguments:
+Run the program with 
+
+```bash
+python loglens.py --file <your_file_path>
+```
+
+### Arguments
 
 - `--file` (required): Specify the CSV file to process
 - `--level` (optional): Count records matching a specific log level (`INFO`, `WARN`, `ERROR`) or omit the flag to count all records.
 
+### Sample run
 Run the following command from the repository root to execute a sample run:
 
 ```bash
