@@ -4,8 +4,9 @@ LogLens is a simple, local command-line Python script for counting records by lo
 
 ## Requirements
  - Python 3.10 or later
+ - CSV files with the exact column headers `timestamp`, `level` and `message`
 
-## Get started
+## Downloading
 
 First, get the project files from GitHub with 
 
@@ -27,7 +28,12 @@ The input must be a CSV file with the exact column headers `timestamp`, `level` 
 
 An example log file can be found at [data/sample_logs.csv](data/sample_logs.csv)
 
-## Using the program
+## Running the program
+
+Arguments:
+
+- `--file` (required): Specify the CSV file to process
+- `--level` (optional): Count records matching a specific log level (`INFO`, `WARN`, `ERROR`) or omit the flag to count all records.
 
 Run the following command from the repository root to execute a sample run:
 
@@ -41,10 +47,6 @@ Expected output:
 Records matching ERROR: 2
 ```
 
-Change the CSV file with the `--file` flag. 
+## Support
 
-Count different log levels with the `--level` flag. Accepted levels are `INFO`, `WARN`, and `ERROR`. Omitting the `--level` flag will count all records.
-
-## Questions
-
-If something doesn't work, please open a GitHub issue or contact the developers directly. Include a description of the problem alongside a sanitized, minimal example. Do not include any sensitive or private information.
+If something doesn't work, please open a GitHub issue or contact the developers directly. Include a description of the problem alongside a sanitized, minimal example. Do not include any sensitive or private information in your issue.
